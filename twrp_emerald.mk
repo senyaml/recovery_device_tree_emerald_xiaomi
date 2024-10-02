@@ -5,16 +5,16 @@
 #
 
 # Inherit from Infinix-X6837 device
-$(call inherit-product, device/infinix/Infinix-X6837/device.mk)
+$(call inherit-product, device/xiaomi/emerald/device.mk)
 
 # Inherit some common TWRP stuff.
 $(call inherit-product, vendor/twrp/config/common.mk)
 
 # Product Specifics
-PRODUCT_NAME := twrp_X6837
-PRODUCT_DEVICE := Infinix-X6837
-PRODUCT_BRAND := Infinix
-PRODUCT_MODEL := Infinix X6837
-PRODUCT_MANUFACTURER := INFINIX
+PRODUCT_NAME := twrp_emerald
+PRODUCT_DEVICE := emerald
+PRODUCT_BRAND := Xiaomi
+PRODUCT_MODEL := emerald
+PRODUCT_MANUFACTURER := Xiaomi
 
-PRODUCT_GMS_CLIENTID_BASE := android-infinix
+PRODUCT_GMS_CLIENTID_BASE := android-Xiaomi
