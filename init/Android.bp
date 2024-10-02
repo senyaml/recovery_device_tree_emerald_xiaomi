@@ -1,5 +1,5 @@
 cc_library_static {
-    name: "libinit_Infinix-X6837",
+    name: "libinit_emerald",
     header_libs: [
         "libbase_headers",
     ],
@@ -9,6 +9,6 @@ cc_library_static {
     static_libs: [
         "libbase",
     ],
-    srcs: ["init_Infinix-X6837.cpp"],
+    srcs: ["init_emerald.cpp"],
     recovery_available: true,
 }
